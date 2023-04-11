@@ -1,0 +1,227 @@
+{
+    "modelName": "test_model",
+    "collections": [
+        {
+            "collectionName": "test_table_2",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "col_2",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey",
+                        "triggerUpdateColumns"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "triggerUpdateColumns": false,
+                    "GUID": "405c0723-a996-4610-b21e-80058f51b7a1",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "2bd0fe16-9f2e-45dd-abe8-8d95cd8826c7"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "memory_optimized": false,
+            "collectionUsers": [],
+            "ifNotExist": true,
+            "on_commit": "PRESERVE ROWS",
+            "table_tablespace_name": "pg_default",
+            "GUID": "e6331cd6-070a-4bd0-aaf5-0e471215e5a0",
+            "bucketId": "cce662e0-5b76-47fc-a4fa-10c63e01dc18"
+        },
+        {
+            "collectionName": "test_table",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "col_1",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey",
+                        "triggerUpdateColumns"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "triggerUpdateColumns": false,
+                    "GUID": "6c1d38a2-cfb3-4846-b58a-89545d167701",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "2e364d8b-f7f1-4459-a5f4-88b93a14e7bb"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "memory_optimized": false,
+            "collectionUsers": [],
+            "ifNotExist": true,
+            "on_commit": "PRESERVE ROWS",
+            "table_tablespace_name": "pg_default",
+            "GUID": "64c3552e-a2c3-4f8e-80ea-f0879637831e",
+            "bucketId": "cce662e0-5b76-47fc-a4fa-10c63e01dc18"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "Public",
+            "type": "bucket",
+            "collectionIds": [
+                "64c3552e-a2c3-4f8e-80ea-f0879637831e",
+                "e6331cd6-070a-4bd0-aaf5-0e471215e5a0"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "ifNotExist": true,
+            "GUID": "cce662e0-5b76-47fc-a4fa-10c63e01dc18"
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "cce662e0-5b76-47fc-a4fa-10c63e01dc18": "Public",
+        "64c3552e-a2c3-4f8e-80ea-f0879637831e": "test_table",
+        "e6331cd6-070a-4bd0-aaf5-0e471215e5a0": "test_table_2",
+        "6c1d38a2-cfb3-4846-b58a-89545d167701": "col_1",
+        "405c0723-a996-4610-b21e-80058f51b7a1": "col_2"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "7d79d4bb-c1d8-472b-8a1e-0f52c79436b2"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "8b1f43eb-2089-4aec-be5f-bae6edec4c23"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "1b5bef0b-a968-402d-a783-0acc8d2bc30b"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v13.x",
+    "dbVendor": "PostgreSQL",
+    "tablespace_name": "pg_default",
+    "encoding": "UTF8",
+    "appTarget": "PostgreSQL",
+    "creationTS": "2023-04-11T17:29:15.145Z",
+    "GUID": "520688e9-9f8d-423d-bc44-d738ef494681",
+    "isLineageEnabled": false,
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        }
+    },
+    "version": "1",
+    "lastModifTS": "2023-04-11T17:30:24.490Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "PostgreSQL",
+        "pluginVersion": "0.1.37",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.9.10"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "64c3552e-a2c3-4f8e-80ea-f0879637831e",
+                        "x": 1306,
+                        "y": 1337,
+                        "width": 196,
+                        "height": 51,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "e6331cd6-070a-4bd0-aaf5-0e471215e5a0",
+                        "x": 1307,
+                        "y": 1428,
+                        "width": 196,
+                        "height": 51,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1266,
+                        "y": 1297,
+                        "GUID": "cce662e0-5b76-47fc-a4fa-10c63e01dc18"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
